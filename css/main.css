@@ -1,3 +1,61 @@
-.jumbotron {
-    background-image: url("assets/images/background.gif");
+body {
+    padding: 0;
+    margin: 0;
+    
+    background-image: url(../assets/images/background.png);
+    background-size: cover;
+    background-position: center 0;
+    
+    color: white;
+}
+
+#logo {
+    text-align: center;
+    display: block;
+}
+
+#logo>img {
+    width: 35%;
+    margin-top: 100px;
+}
+
+div#load_screen{
+	background: #060606;
+	opacity: 1;
+	position: fixed;
+    z-index:10;
+	top: 0px;
+	width: 100%;
+	height: 1600px;
+}
+div#load_screen > div#loading{
+	color:#FFF;
+	text-align: center;
+	margin: 300px auto;
+}
+/* Loading screen Animation*/
+#loader {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -250px;
+    
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #3498db;
+    
+    width: 60px;
+    height: 60px;
+    
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }

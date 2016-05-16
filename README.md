@@ -9,3 +9,4 @@ Concept Design by: Alex
 This current project is only to practice our skills and to better ourselves in the field. Please, if you have any suggestions or comments, let us know!:D
 
 ##Change Log
+v0.1 -5/16- Added main design including a functional loading screen.

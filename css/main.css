@@ -59,3 +59,26 @@ div#load_screen > div#loading{
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+#contact {
+    display: none;
+}
+
+#submit {
+    display: none;
+}
+
+#signup-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#home {
+    margin-top: 20px;
+    display: none;
+}
+
+.text-danger li {
+    list-style: none;
+    color: #BE0006;
+}

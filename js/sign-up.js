@@ -1,26 +1,23 @@
 
+
 $('#signup').click(function(e){
     e.preventDefault();
-    $('#logo').fadeOut('fast', function(){
-        $('#contact').fadeIn('fast');
-    });
     
-    $('#signup').fadeOut('fast', function(){
-        $('#submit').fadeIn('fast');
-    });
+    //Sign Up Form & Home button fade in
+    $('#contact').fadeIn('fast');
+    $('#submit').fadeIn('fast');
+    document.getElementById("home").style.display = "block";
+    document.getElementById("signup").style.display = "none";
     
-    $('#home').fadeIn('slow');
 });
 
+//Reverse changes
 $('#home').click(function(e){
     e.preventDefault();
-    $('#contact').fadeOut('fast', function(){
-        $('#logo').fadeIn('fast');
-    });
-    
-    $('#submit').fadeOut('fast', function(){
-        $('#signup').fadeIn('fast');
-    });
-    
+  
+    $('#contact').fadeOut('fast');
+    $('#submit').fadeOut('fast');
+    document.getElementById("signup").style.display = "block";
     document.getElementById("home").style.display = "none";
+    
 });

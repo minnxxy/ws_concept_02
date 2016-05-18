@@ -19,6 +19,16 @@ body {
     margin-top: 100px;
 }
 
+#logo2 {
+    text-align: center;
+    display: none;
+}
+
+#logo2>img {
+    width: 35%;
+    margin-top: 100px;
+}
+
 div#load_screen{
 	background: #060606;
 	opacity: 1;
@@ -74,11 +84,11 @@ div#load_screen > div#loading{
 }
 
 #home {
-    margin-top: 20px;
     display: none;
 }
 
 .text-danger li {
     list-style: none;
+    text-align: center;
     color: #BE0006;
 }

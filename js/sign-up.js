@@ -1,5 +1,4 @@
 
-
 $('#signup').click(function(e){
     e.preventDefault();
     
